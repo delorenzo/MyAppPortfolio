@@ -41,27 +41,27 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void startSpotifyStreamer(View view) {
-        displayPlaceholderToast("Spotify Streamer");
+        displayPlaceholderToast(R.string.spotify_streamer);
     }
 
     public void startFootballScoresApp(View view) {
-        displayPlaceholderToast("Football Scores");
+        displayPlaceholderToast(R.string.football_scores);
     }
 
     public void startLibraryApp(View view) {
-        displayPlaceholderToast("Library");
+        displayPlaceholderToast(R.string.library);
     }
 
     public void startBuildItBigger(View view) {
-        displayPlaceholderToast("Build It Bigger");
+        displayPlaceholderToast(R.string.build_it_bigger);
     }
 
     public void startXYZReader(View view) {
-        displayPlaceholderToast("XYZ Reader");
+        displayPlaceholderToast(R.string.xyz_reader);
     }
 
     public void startCapstone(View view) {
-        displayPlaceholderToast("Capstone");
+        displayPlaceholderToast(R.string.capstone);
     }
 
     private void displayPlaceholderToast(CharSequence appName)
