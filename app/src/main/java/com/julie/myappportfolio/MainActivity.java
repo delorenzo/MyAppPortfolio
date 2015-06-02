@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
+    private Toast mAppToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +66,6 @@ public class MainActivity extends ActionBarActivity {
 
     private void displayPlaceholderToast(CharSequence appName)
     {
-        private Toast mAppToast;
         if (mAppToast != null) {
             mAppToast.cancel();
         }
