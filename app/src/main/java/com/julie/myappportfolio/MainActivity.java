@@ -64,13 +64,14 @@ public class MainActivity extends ActionBarActivity {
         displayPlaceholderToast(R.string.capstone);
     }
 
-    private void displayPlaceholderToast(CharSequence appName)
+    private void displayPlaceholderToast(int resourceID)
     {
+        CharSequence appName = getString(resourceID);
         if (mAppToast != null) {
             mAppToast.cancel();
         }
         CharSequence text = "This button will launch the " + appName + " App!";
         mAppToast = Toast.makeText(this, text, Toast.LENGTH_SHORT);
-        toast.show();
+        mAppToast.show();
     }
 }
